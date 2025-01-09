@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "podinfo-bucket"
+  annotations:
+    "humanitec.com/orgId": "humaniteclab"
+    "humanitec.com/appId": "podinfo-bucket"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
